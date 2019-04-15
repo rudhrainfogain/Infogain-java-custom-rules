@@ -1,0 +1,19 @@
+<p>This rule detects methods with same type as argument</p>
+<h2>Noncompliant Code Example</h2>
+<pre>
+public int (int a)
+{
+int x;
+//some logic 
+return x;
+}
+</pre>
+<h2>Compliant Solution</h2>
+<pre>
+public Integer (int a)
+{
+Integer x;
+//some logic 
+return x;
+}
+</pre>
